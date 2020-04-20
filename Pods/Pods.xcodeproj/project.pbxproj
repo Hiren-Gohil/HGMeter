@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313E82986551CA0E3AD84F3B909F21B0 /* Pods-HGMeter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E363AEB5CA0E3D3979BC1422F804A766 /* Pods-HGMeter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		440FC209AE0033EE6FE8B0186310387C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4DB7A92F01E94D96B0CF56924D32685F /* HGMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 802341A77DB84C82D32BEFD73BB779E0 /* HGMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61DF2890BE4998801473BABA25AF3BBC /* Pods-HGMeter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AAADECC6BAB3CFE669142C081BC1A0 /* Pods-HGMeter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62363DD69D339BDFE20A18562B021BC3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561A628DC17EDB3531B7D5C7C4C6E67 /* ReplaceMe.swift */; };
+		7C2D60637914A82EB848BE56FF871DEA /* HGMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B745FECB8B55F8587552FF702B793767 /* HGMeter-dummy.m */; };
+		83C149AFEBA7EB9921518B729885BA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C0C079E395386142EF7284D5017969FA /* Pods-HGMeter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D34EC6923A6BFD027F301F5EF9EAB3E /* Pods-HGMeter_Tests-dummy.m */; };
+		C3FEA8BE2FAF8A46DE072BDB121D2DE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C934EEECA856A8B2C801346A3F6FDD95 /* Pods-HGMeter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 685FA408D52E1E628D4B2368DFB61ECD /* Pods-HGMeter_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE77EAFE1B2832CD3F6F61645F8734F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61EB6DE7FCA5AF7AF89189B5B14F172F;
+			remoteInfo = HGMeter;
+		};
+		FE3B1A24B25EB8AF78438F14B673F429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9145F47B63CCD632184E7CEB2DDF48E6;
+			remoteInfo = "Pods-HGMeter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EC0B71300DEE86662A0A133245E3DD /* Pods-HGMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		12673D87DC35FE3E81697711DB0D8290 /* HGMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGMeter.release.xcconfig; sourceTree = "<group>"; };
+		14F6014DA1B33DFF5CE937F773844E6C /* Pods-HGMeter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HGMeter_Example.modulemap"; sourceTree = "<group>"; };
+		25AAADECC6BAB3CFE669142C081BC1A0 /* Pods-HGMeter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HGMeter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2B99F233EC71FAF0962491936FD01AFB /* Pods-HGMeter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGMeter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38DE060A15590B4108C1E0B03EB1CFDB /* Pods-HGMeter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGMeter_Tests-Info.plist"; sourceTree = "<group>"; };
+		4319D4865FBF440EC7F62DCA49AE6B45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4561A628DC17EDB3531B7D5C7C4C6E67 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HGMeter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4C30A9530C6A7031CF02142DCD0CE3D5 /* Pods-HGMeter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGMeter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		562CD3A93AF3C699AB4CA4A69E565C92 /* Pods-HGMeter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGMeter_Example-Info.plist"; sourceTree = "<group>"; };
+		57553715695515AA6F7329CC43B772A6 /* HGMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HGMeter.framework; path = HGMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		584B8A24F213C670596496A56E43D843 /* Pods_HGMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HGMeter_Tests.framework; path = "Pods-HGMeter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D34EC6923A6BFD027F301F5EF9EAB3E /* Pods-HGMeter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGMeter_Tests-dummy.m"; sourceTree = "<group>"; };
+		64B18A2C3E7C06830A6F17F89D56AF7F /* Pods-HGMeter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGMeter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		685FA408D52E1E628D4B2368DFB61ECD /* Pods-HGMeter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGMeter_Example-dummy.m"; sourceTree = "<group>"; };
+		773429745077A79415C3ACBE2E531553 /* Pods-HGMeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGMeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		802341A77DB84C82D32BEFD73BB779E0 /* HGMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGMeter-umbrella.h"; sourceTree = "<group>"; };
+		8916D06B3F2962046ACB3C1FB720B8F2 /* HGMeter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HGMeter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E021693D0DFCD7D9BC9D891103097B /* Pods-HGMeter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGMeter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9982403F95FCB6D87453FEB4241FB9EE /* HGMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGMeter.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B745FECB8B55F8587552FF702B793767 /* HGMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGMeter-dummy.m"; sourceTree = "<group>"; };
+		BFCA96FFEA3025AF20D1A1CE21FDDFAE /* HGMeter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGMeter-Info.plist"; sourceTree = "<group>"; };
+		C14F8C01E4D2E866BA1B471FB0EB8219 /* Pods-HGMeter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HGMeter_Tests.modulemap"; sourceTree = "<group>"; };
+		C18C5B7C683A22B7F0F3CE1D6E763B3F /* Pods-HGMeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGMeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C74D63F94E7F66A3FE211163DF9AC656 /* HGMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGMeter-prefix.pch"; sourceTree = "<group>"; };
+		D80DA56D39716BBCCDD0BFF8DA82CC5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D860E0715496A7FD3CA5DF6436F4F55B /* HGMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGMeter.modulemap; sourceTree = "<group>"; };
+		E363AEB5CA0E3D3979BC1422F804A766 /* Pods-HGMeter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HGMeter_Example-umbrella.h"; sourceTree = "<group>"; };
+		E8E06ACC253A9200B2F25D55A8AF4243 /* Pods-HGMeter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGMeter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8ED7917A66E34144AAE91966E3599A6 /* Pods-HGMeter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGMeter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA96C4F0D301763A593D6CE04E335383 /* Pods_HGMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HGMeter_Example.framework; path = "Pods-HGMeter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30B82482835B5F0993A46E6FF7F45854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440FC209AE0033EE6FE8B0186310387C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0241AD666E74DF7C890916420F6BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C149AFEBA7EB9921518B729885BA18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC00B1948CBB57EDD27AF3559410019D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FEA8BE2FAF8A46DE072BDB121D2DE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039DF069F2BA5DC915FD2BF058E7286A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8916D06B3F2962046ACB3C1FB720B8F2 /* HGMeter.podspec */,
+				4319D4865FBF440EC7F62DCA49AE6B45 /* LICENSE */,
+				D80DA56D39716BBCCDD0BFF8DA82CC5E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30D8146A541AA7E3D11D22422012B492 /* HGMeter */ = {
+			isa = PBXGroup;
+			children = (
+				4561A628DC17EDB3531B7D5C7C4C6E67 /* ReplaceMe.swift */,
+				039DF069F2BA5DC915FD2BF058E7286A /* Pod */,
+				E72BA82D2935BDE29D18F529C7A00A06 /* Support Files */,
+			);
+			name = HGMeter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9133D7923583DF8902A87523055068DA /* Pods-HGMeter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				14F6014DA1B33DFF5CE937F773844E6C /* Pods-HGMeter_Example.modulemap */,
+				E8E06ACC253A9200B2F25D55A8AF4243 /* Pods-HGMeter_Example-acknowledgements.markdown */,
+				2B99F233EC71FAF0962491936FD01AFB /* Pods-HGMeter_Example-acknowledgements.plist */,
+				685FA408D52E1E628D4B2368DFB61ECD /* Pods-HGMeter_Example-dummy.m */,
+				4C30A9530C6A7031CF02142DCD0CE3D5 /* Pods-HGMeter_Example-frameworks.sh */,
+				562CD3A93AF3C699AB4CA4A69E565C92 /* Pods-HGMeter_Example-Info.plist */,
+				E363AEB5CA0E3D3979BC1422F804A766 /* Pods-HGMeter_Example-umbrella.h */,
+				773429745077A79415C3ACBE2E531553 /* Pods-HGMeter_Example.debug.xcconfig */,
+				07EC0B71300DEE86662A0A133245E3DD /* Pods-HGMeter_Example.release.xcconfig */,
+			);
+			name = "Pods-HGMeter_Example";
+			path = "Target Support Files/Pods-HGMeter_Example";
+			sourceTree = "<group>";
+		};
+		AA866671C8CA2A6823063465F196355D /* Pods-HGMeter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C14F8C01E4D2E866BA1B471FB0EB8219 /* Pods-HGMeter_Tests.modulemap */,
+				F8ED7917A66E34144AAE91966E3599A6 /* Pods-HGMeter_Tests-acknowledgements.markdown */,
+				96E021693D0DFCD7D9BC9D891103097B /* Pods-HGMeter_Tests-acknowledgements.plist */,
+				5D34EC6923A6BFD027F301F5EF9EAB3E /* Pods-HGMeter_Tests-dummy.m */,
+				38DE060A15590B4108C1E0B03EB1CFDB /* Pods-HGMeter_Tests-Info.plist */,
+				25AAADECC6BAB3CFE669142C081BC1A0 /* Pods-HGMeter_Tests-umbrella.h */,
+				64B18A2C3E7C06830A6F17F89D56AF7F /* Pods-HGMeter_Tests.debug.xcconfig */,
+				C18C5B7C683A22B7F0F3CE1D6E763B3F /* Pods-HGMeter_Tests.release.xcconfig */,
+			);
+			name = "Pods-HGMeter_Tests";
+			path = "Target Support Files/Pods-HGMeter_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA629A821223D2E43B9962685741BFA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57553715695515AA6F7329CC43B772A6 /* HGMeter.framework */,
+				FA96C4F0D301763A593D6CE04E335383 /* Pods_HGMeter_Example.framework */,
+				584B8A24F213C670596496A56E43D843 /* Pods_HGMeter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D56D318423FAED6C1D1307E92A94D978 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CA629A821223D2E43B9962685741BFA9 /* Products */,
+				F29BFE61634C2D786F34D313AD42DCE2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D56D318423FAED6C1D1307E92A94D978 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30D8146A541AA7E3D11D22422012B492 /* HGMeter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E72BA82D2935BDE29D18F529C7A00A06 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D860E0715496A7FD3CA5DF6436F4F55B /* HGMeter.modulemap */,
+				B745FECB8B55F8587552FF702B793767 /* HGMeter-dummy.m */,
+				BFCA96FFEA3025AF20D1A1CE21FDDFAE /* HGMeter-Info.plist */,
+				C74D63F94E7F66A3FE211163DF9AC656 /* HGMeter-prefix.pch */,
+				802341A77DB84C82D32BEFD73BB779E0 /* HGMeter-umbrella.h */,
+				9982403F95FCB6D87453FEB4241FB9EE /* HGMeter.debug.xcconfig */,
+				12673D87DC35FE3E81697711DB0D8290 /* HGMeter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HGMeter";
+			sourceTree = "<group>";
+		};
+		F29BFE61634C2D786F34D313AD42DCE2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9133D7923583DF8902A87523055068DA /* Pods-HGMeter_Example */,
+				AA866671C8CA2A6823063465F196355D /* Pods-HGMeter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		637FA35D87D3BE8C213C3CE5D178E760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313E82986551CA0E3AD84F3B909F21B0 /* Pods-HGMeter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860644C3A48759CB4E65CBA648C4B944 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB7A92F01E94D96B0CF56924D32685F /* HGMeter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE442BC76C267C6B4F6910A9F769E25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DF2890BE4998801473BABA25AF3BBC /* Pods-HGMeter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61EB6DE7FCA5AF7AF89189B5B14F172F /* HGMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D3410ED997C3B90D35CB3FA0274AEC /* Build configuration list for PBXNativeTarget "HGMeter" */;
+			buildPhases = (
+				860644C3A48759CB4E65CBA648C4B944 /* Headers */,
+				67F78F56CB5632EE7B7A0A8DD480D666 /* Sources */,
+				30B82482835B5F0993A46E6FF7F45854 /* Frameworks */,
+				17CC1848571659F70A10DB08E973A247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGMeter;
+			productName = HGMeter;
+			productReference = 57553715695515AA6F7329CC43B772A6 /* HGMeter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9145F47B63CCD632184E7CEB2DDF48E6 /* Pods-HGMeter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF1D5D1384EC03C439A38657C54112C /* Build configuration list for PBXNativeTarget "Pods-HGMeter_Example" */;
+			buildPhases = (
+				637FA35D87D3BE8C213C3CE5D178E760 /* Headers */,
+				40B18CA1ACBA858BC376B410C9AE7172 /* Sources */,
+				AC00B1948CBB57EDD27AF3559410019D /* Frameworks */,
+				07425E96E7500ED275C2EDFE77F50BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6AEECEE234E25B405961B3070A05204 /* PBXTargetDependency */,
+			);
+			name = "Pods-HGMeter_Example";
+			productName = "Pods-HGMeter_Example";
+			productReference = FA96C4F0D301763A593D6CE04E335383 /* Pods_HGMeter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFC9C12F825FEB8F82BCC25B72391755 /* Pods-HGMeter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C30A0C6A1649492BFE7223547C45E8F /* Build configuration list for PBXNativeTarget "Pods-HGMeter_Tests" */;
+			buildPhases = (
+				CBE442BC76C267C6B4F6910A9F769E25 /* Headers */,
+				8585316F893C4E1D2DD24AC51E69F4F4 /* Sources */,
+				A6B0241AD666E74DF7C890916420F6BD /* Frameworks */,
+				234047EFCBE2FE9B18F5F56B8DCEE3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13996F789B5BFAAB1206C6C83A93C12 /* PBXTargetDependency */,
+			);
+			name = "Pods-HGMeter_Tests";
+			productName = "Pods-HGMeter_Tests";
+			productReference = 584B8A24F213C670596496A56E43D843 /* Pods_HGMeter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CA629A821223D2E43B9962685741BFA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61EB6DE7FCA5AF7AF89189B5B14F172F /* HGMeter */,
+				9145F47B63CCD632184E7CEB2DDF48E6 /* Pods-HGMeter_Example */,
+				AFC9C12F825FEB8F82BCC25B72391755 /* Pods-HGMeter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07425E96E7500ED275C2EDFE77F50BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CC1848571659F70A10DB08E973A247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234047EFCBE2FE9B18F5F56B8DCEE3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40B18CA1ACBA858BC376B410C9AE7172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C934EEECA856A8B2C801346A3F6FDD95 /* Pods-HGMeter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F78F56CB5632EE7B7A0A8DD480D666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2D60637914A82EB848BE56FF871DEA /* HGMeter-dummy.m in Sources */,
+				62363DD69D339BDFE20A18562B021BC3 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8585316F893C4E1D2DD24AC51E69F4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C079E395386142EF7284D5017969FA /* Pods-HGMeter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6AEECEE234E25B405961B3070A05204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HGMeter;
+			target = 61EB6DE7FCA5AF7AF89189B5B14F172F /* HGMeter */;
+			targetProxy = FAE77EAFE1B2832CD3F6F61645F8734F /* PBXContainerItemProxy */;
+		};
+		D13996F789B5BFAAB1206C6C83A93C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HGMeter_Example";
+			target = 9145F47B63CCD632184E7CEB2DDF48E6 /* Pods-HGMeter_Example */;
+			targetProxy = FE3B1A24B25EB8AF78438F14B673F429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A92909FE3FABBF392A733044702B289C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EC0B71300DEE86662A0A133245E3DD /* Pods-HGMeter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HGMeter_Example/Pods-HGMeter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HGMeter_Example/Pods-HGMeter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEF61FA47F1F8AB14854180004A7D10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12673D87DC35FE3E81697711DB0D8290 /* HGMeter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGMeter/HGMeter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGMeter/HGMeter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HGMeter/HGMeter.modulemap";
+				PRODUCT_MODULE_NAME = HGMeter;
+				PRODUCT_NAME = HGMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0A2DAD8F8F0B7634C7AC2975E669D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773429745077A79415C3ACBE2E531553 /* Pods-HGMeter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HGMeter_Example/Pods-HGMeter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HGMeter_Example/Pods-HGMeter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D903FC8F9082C2EF3E1C851FF1DE99B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18C5B7C683A22B7F0F3CE1D6E763B3F /* Pods-HGMeter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HGMeter_Tests/Pods-HGMeter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HGMeter_Tests/Pods-HGMeter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB96E61FAEB0FC174E31BF647C02525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B18A2C3E7C06830A6F17F89D56AF7F /* Pods-HGMeter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HGMeter_Tests/Pods-HGMeter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HGMeter_Tests/Pods-HGMeter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC10C734705268A622D5A06372FACD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9982403F95FCB6D87453FEB4241FB9EE /* HGMeter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGMeter/HGMeter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGMeter/HGMeter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HGMeter/HGMeter.modulemap";
+				PRODUCT_MODULE_NAME = HGMeter;
+				PRODUCT_NAME = HGMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C30A0C6A1649492BFE7223547C45E8F /* Build configuration list for PBXNativeTarget "Pods-HGMeter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB96E61FAEB0FC174E31BF647C02525F /* Debug */,
+				D903FC8F9082C2EF3E1C851FF1DE99B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D3410ED997C3B90D35CB3FA0274AEC /* Build configuration list for PBXNativeTarget "HGMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC10C734705268A622D5A06372FACD1B /* Debug */,
+				BEF61FA47F1F8AB14854180004A7D10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF1D5D1384EC03C439A38657C54112C /* Build configuration list for PBXNativeTarget "Pods-HGMeter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A2DAD8F8F0B7634C7AC2975E669D99 /* Debug */,
+				A92909FE3FABBF392A733044702B289C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

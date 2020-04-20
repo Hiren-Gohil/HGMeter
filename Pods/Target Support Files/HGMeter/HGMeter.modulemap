@@ -1,0 +1,6 @@
+framework module HGMeter {
+  umbrella header "HGMeter-umbrella.h"
+
+  export *
+  module * { export * }
+}

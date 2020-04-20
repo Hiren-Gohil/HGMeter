@@ -1,0 +1,16 @@
+PODS:
+  - HGMeter (0.1.0)
+
+DEPENDENCIES:
+  - HGMeter (from `../`)
+
+EXTERNAL SOURCES:
+  HGMeter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HGMeter: 131b927840047f4dff5feb071e3ca8ccbd291c73
+
+PODFILE CHECKSUM: c103bb65360e2b20c27dab6be66ccc01bdb1d8c3
+
+COCOAPODS: 1.9.1
