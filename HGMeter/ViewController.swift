@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import HGMeter
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var vwMeter: HGMeter!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
