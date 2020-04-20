@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		097C59E9BF940609A42DE14F /* Pods-HGMeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGMeter_Example.debug.xcconfig"; path = "Target Support Files/Pods-HGMeter_Example/Pods-HGMeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		125D42DD0A0E83C9711D294D /* Pods_HGMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGMeter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B0081A0B1568E5F585C7DF /* HGMeter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HGMeter.podspec; path = ../HGMeter.podspec; sourceTree = "<group>"; };
+		26B0081A0B1568E5F585C7DF /* HGMeter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGMeter.podspec; path = ../HGMeter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DB510B39CDF0AECADFD8297 /* Pods-HGMeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGMeter_Tests.release.xcconfig"; path = "Target Support Files/Pods-HGMeter_Tests/Pods-HGMeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HGMeter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGMeter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		AF4B3162CCCF96C50F1A8741 /* Pods_HGMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGMeter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D745EA96295567C899BB0D7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D96D2E7CA44B70614C22B9E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D745EA96295567C899BB0D7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D96D2E7CA44B70614C22B9E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EC7BBF6C8E1D2337143FF74D /* Pods-HGMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGMeter_Example.release.xcconfig"; path = "Target Support Files/Pods-HGMeter_Example/Pods-HGMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED1CAC03F2B89782BE95DF21 /* Pods-HGMeter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGMeter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HGMeter_Tests/Pods-HGMeter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				ED1CAC03F2B89782BE95DF21 /* Pods-HGMeter_Tests.debug.xcconfig */,
 				2DB510B39CDF0AECADFD8297 /* Pods-HGMeter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
